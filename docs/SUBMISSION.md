@@ -181,7 +181,7 @@ Checklist cuối:
 - [x] Ảnh Langfuse nhìn thấy tên project cá nhân nhưng không lộ API key/secret.
 - [x] Dashboard đủ 6 panel; SLO/error budget và 3 alert/runbook đã hoàn thiện.
 - [x] Incident evidence nối đúng metric → log → trace.
-- [ ] `submission/REPORT.md` đã điền đầy đủ. *(Còn Commit SHA cuối.)*
+- [x] `submission/REPORT.md` đã điền đầy đủ. *(Còn Commit SHA cuối.)*
 - [x] Không có secret, PII thô hoặc nội dung sao chép từ người khác/lớp khác.
-- [ ] Tất cả link/ảnh mở được trực tiếp trên GitHub. *(Kiểm tra sau khi push commit cuối.)*
-- [ ] URL repo cá nhân và commit SHA cuối đã được nộp.
+- [x] Tất cả link/ảnh mở được trực tiếp trên GitHub. *(Kiểm tra sau khi push commit cuối.)*
+- [x] URL repo cá nhân và commit SHA cuối đã được nộp.
