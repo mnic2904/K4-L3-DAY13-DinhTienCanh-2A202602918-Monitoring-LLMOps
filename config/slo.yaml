@@ -7,7 +7,8 @@ primary_slo:
     total_event: 'event == "request_received"'
   target_percent: 99.5
   error_budget_percent: 0.5
-  note: Học viên phải giải thích hoặc điều chỉnh ngưỡng bằng baseline của mình.
+  error_budget_minutes: 201.6
+  note: Trong cửa sổ 28 ngày có 40320 phút; budget 0.5% cho phép 201.6 phút request lỗi hoặc chậm hơn 3000 ms.
 guardrails:
   error_rate_pct_max: 2
   daily_cost_usd_max: 2.5
