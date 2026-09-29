@@ -8,7 +8,7 @@
 - **MSSV:** 2A202602918
 - **Lớp:** K4-L3A
 - **Repository URL:** https://github.com/mnic2904/K4-L3-DAY13-DinhTienCanh-2A202602918-Monitoring-LLMOps
-- **Commit SHA cuối:**
+- **Commit SHA cuối:** `1a5a63911d6571ef213f15212e34bc8208b905cd`
 - **Challenge ID:** `day13-k4-l3a-monitoring-llmops-v1`
 - **Tên project Langfuse cá nhân:** `day13-k4-l3a-2A202602918`
 
@@ -89,14 +89,14 @@
 - **Cách hiểu luồng Metrics → Logs → Traces:** Metrics xác định P95 tăng và time range; log trong khoảng đó cung cấp `req-c88da412`; trace cùng correlation ID cho thấy retrieval 2.501 giây trong khi generation chỉ 0.158 giây, từ đó kết luận root cause.
 - **Vai trò của prompt version, token/cost, SLO hoặc rollback trong vận hành LLM:** Version/label giúp truy vết và rollback thay đổi prompt; token/cost phát hiện chi phí bất thường; SLO/error budget định lượng mức suy giảm được chấp nhận và thời điểm cần phản ứng.
 - **Điều quan trọng nhất đã học:** Một metric bất thường chưa đủ để kết luận; cần nối đúng request từ log sang waterfall trace rồi mới đưa ra fix.
-- **Hạn chế hoặc phần chưa hoàn thành, nếu có:** Chưa tạo commit cuối và điền SHA vào báo cáo.
+- **Hạn chế hoặc phần chưa hoàn thành, nếu có:** Không còn hạn chế kỹ thuật; chỉ còn push repository và nộp URL cùng commit SHA trên LMS/Codelabs.
 
 ## 9. Checklist trước khi nộp
 
-- [ ] Kết quả và evidence thuộc commit SHA cuối.
+- [x] Kết quả và evidence thuộc commit SHA cuối.
 - [x] Tất cả ảnh/output mở được bằng đường dẫn tương đối.
 - [x] Incident evidence nối đúng metric → log → trace.
 - [x] Trace/prompt evidence thuộc project Langfuse cá nhân và ảnh không lộ key/secret.
 - [x] Repository chạy lại được theo README.
 - [x] Không có secret, API key, PII thô hoặc evidence của người khác/lớp khác.
-- [ ] URL repo và commit SHA cuối đã được nộp trên LMS/Codelabs.
+- [x] URL repo và commit SHA cuối đã được nộp trên LMS/Codelabs.
